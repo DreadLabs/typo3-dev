@@ -1,0 +1,25 @@
+{
+  "name": "dreadlabs/typo3-dev",
+  "description": "TYPO3.CMS development meta-package.",
+  "type": "metapackage",
+  "minimum-stability": "stable",
+  "license": "GPLv2",
+  "authors": [
+    {
+      "name": "Thomas Juhnke",
+      "email": "dev@van-tomas.de"
+    }
+  ],
+  "require": {
+    "typo3/cms": "7.4.0",
+    "phploc/phploc": "~2.1",
+    "squizlabs/php_codesniffer": "~2.3",
+    "sebastian/phpcpd": "~2.0",
+    "phpunit/phpunit": "~4.6",
+    "pdepend/pdepend": "~2.0",
+    "phpmd/phpmd": "~2.2"
+  },
+  "replace": {
+    "typo3/cms-composer-installers": "*"
+  }
+}
